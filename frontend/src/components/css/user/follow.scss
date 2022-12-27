@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+.following-container {
+  margin: 0 auto;
+}
+
+.follower-container {
+    margin: 0 auto;
+  }
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.following-container {
+		width: 100vw;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.follower-container {
+		width: 100vw;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.following-container {
+		width: 70vw;
+	};
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.follower-container {
+		width: 70vw;
+	};
+}
+
+@media (min-width: 1024px) {
+	.following-container {
+		width: 40vw;
+	}
+}
+
+@media (min-width: 1024px) {
+	.follower-container {
+		width: 40vw;
+	}
+}

@@ -1,0 +1,30 @@
+.editor-div {
+  border: 2px solid rgba(255, 175, 10, 1);
+  height: unquote('max(200px, 15vh)');
+  max-height: unquote('max(200px, 15vh)');
+}
+
+.editorContent {
+  overflow: auto;
+  padding: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+
+/* 스크롤바 설정*/
+.editorContent::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* 스크롤바 막대 설정*/
+.editorContent::-webkit-scrollbar-thumb {
+  height: 17%;
+  background-color: rgba(255, 175, 10, 1);
+  /* 스크롤바 둥글게 설정    */
+  border-radius: 10px;
+}
+
+/* 스크롤바 뒷 배경 설정*/
+.editorContent::-webkit-scrollbar-track {
+  background-color: rgba(255, 175, 10, 0.33);
+}

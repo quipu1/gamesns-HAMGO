@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+.mypage-container {
+  margin: 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.mypage-container {
+		width: 100vw;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.mypage-container {
+		width: 70vw;
+	};
+}
+
+@media (min-width: 1024px) {
+	.mypage-container {
+		width: 40vw;
+	}
+}

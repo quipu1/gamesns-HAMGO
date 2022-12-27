@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.fbtn {
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    text-align:center;
+    cursor:pointer;
+    padding: 2px 35px 2px 35px;
+    /* &.active {
+        background-color: #ff8f00;
+        color: white;
+    } */
+}

@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+.matching-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 70vw;
+  /* height:; */
+  height: 85vh;
+}
+
+.matching-container p {
+  margin-bottom: 50px;
+  color: #aaa;
+}
+
+.game-kind-btns {
+  position: absolute;
+  top: 130px;
+}
+
+.select-boxes {
+  position: absolute;
+  top: 25%;
+}
+
+.game-btn {
+  outline: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  padding: 0.2rem 3rem;
+  cursor: pointer;
+  border-radius: 4px;
+  /* border: 0.2px solid #000; */
+  background: #fff;
+  overflow: hidden;
+  background-color: red;
+  font-family: "Nanum Gothic", sans-serif;
+  position: absolute;
+  height: 45px;
+}
+
+.hard-game {
+  margin-right: 10px;
+  right: 0px;
+}
+
+.funny-game {
+  margin-left: 10px;
+  background-color: blueviolet;
+  left: 0px;
+}
+
+.game-btn:active {
+  transform: scale(0);
+  transition: transform 0.3s ease-in;
+}
+
+.select-box {
+  position: relative;
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+  /* font-family: "Open Sans", "Helvetica Neue", "Segoe UI", "Calibri", "Arial", sans-serif; */
+  font-size: 20px;
+  color: #60666d;
+  /* -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none; */
+  padding: 5px;
+  /* font-family: 'Nanum Gothic', sans-serif; */
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.select-box:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 1px #ffaf0a;
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  /* color:  rgba(59, 153, 252, 0.7); */
+  border-radius: 4px;
+}
+
+.matching-container button::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: transform 0.3s ease-in;
+  mix-blend-mode: difference;
+  background: radial-gradient(circle at center, #fff 24%, #000 25%, #000 100%);
+  color: aqua;
+}
+
+#matchStart {
+  background-color: #8197a1;
+  position: absolute;
+  bottom: 22%;
+  outline: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.08rem;
+  padding: 0.2rem 3rem;
+  cursor: pointer;
+  border-radius: 4px;
+  /* border: 0.2px solid #000; */
+  overflow: hidden;
+  font-family: "Nanum Gothic", sans-serif;
+}

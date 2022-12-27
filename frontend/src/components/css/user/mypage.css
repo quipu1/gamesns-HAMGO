@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+.card-header{
+    /* background-image: url('https://usercontents-d.styleshare.io/images/24030979/640x640') !important; */
+    /* background-color: antiquewhite; */
+    padding: 0 !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+.card{
+    overflow: hidden;
+    border:0 !important;
+    width: 100%;
+    padding: 0;
+}
+.profile_pic{
+    position: absolute;
+    bottom: -85px;
+    height: 182px;
+    width: 182px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.card-body{
+    padding-top: 90px !important;
+    padding-bottom: 15px;
+    /* border-bottom: 1px solid #dcdcdc; */
+}
+.profile_pic img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+.name_container{
+    display: flex;
+    justify-content: center;
+
+}
+.name{
+    margin-bottom: 3px;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+    position: relative;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: gray;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.edit, .follow{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.edit_btn{
+    /* background: #ff8f00; */
+    padding: 5px 35px;
+    /* color: #fff; */
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    /* font-weight: bolder; */
+}
+
+.follow_btn{
+		width: 115px;
+    background: #ff8f00;
+    padding: 5px 35px;
+    color: #fff;
+    /* border: 1px solid #dcdcdc; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+    /* font-weight: bolder; */
+		margin-right: 10px;
+}
+
+.chat_btn {
+	width: 115px;
+	/* background: #ff8f00; */
+	text-align: center;
+	padding: 5px;
+    /* color: #fff; */
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 15px;
+	margin-left: 10px;
+}
+
+.info_container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info p:first-child{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.info p:last-child{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: gray;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.card-footer{
+    padding: 0 !important;
+    background: #fff !important;
+    display: flex;
+    border-top: 0 !important;
+}
+
+.myfeed{
+    /* color: #ff8f00; */
+    padding-bottom: 20px;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 50%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-bottom-left-radius: calc(0.25rem - 1px);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+    .card-footer div:hover {
+        color: #ff8f00;
+        cursor: pointer;
+    }
+
+
+.drop-in-underline {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .drop-in-underline:before{
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0; right: 0;
+    height: 2px;
+    background-color: #ff8f00;
+    
+  }
+  .drop-in-underline:before{
+    opacity: 0;
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+    -webkit-transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s;
+      transition: transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0s, -webkit-transform 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .drop-in-underline:hover:before{
+    opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s;
+      transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.2s, -webkit-transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }

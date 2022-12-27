@@ -1,0 +1,50 @@
+.metadata-div:hover {
+  cursor: pointer;
+}
+.metadata-div {
+  border: 1px solid #d0d0d0;
+  height: 90px;
+  margin-top: 1em;
+
+  img {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    border-right: 0.5px solid #d0d0d0;
+    padding: 3px;
+    height: 100%;
+    width: 100px;
+    margin-right: 15px;
+  }
+
+  .metaTitle {
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+
+    // 글자수제한
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 표시하고자 하는 라인 수 */
+    -webkit-box-orient: vertical;
+  }
+
+  .metaDesc {
+    font-size: 0.5em;
+
+    // 글자수제한
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 표시하고자 하는 라인 수 */
+    -webkit-box-orient: vertical;
+  }
+
+  .metaContent {
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

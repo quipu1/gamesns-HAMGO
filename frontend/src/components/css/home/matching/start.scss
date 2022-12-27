@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.start-container {
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.match-line {
+    margin: 0 auto;
+    width: 100vw;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.start-container, .match-line {
+        width: 100vw;
+    }
+    .matching-start-btn, .matching-accept-btn {
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.start-container, .match-line {
+        width: 70vw;
+    }
+    .matching-start-btn, .matching-accept-btn {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 1024px) {
+	.start-container, .match-line {
+        width: 40vw;
+    }
+    .matching-start-btn, .matching-accept-btn {
+        font-size: large;
+    }
+}

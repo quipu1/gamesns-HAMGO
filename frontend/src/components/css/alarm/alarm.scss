@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.alarm-res {
+    margin: 0 auto;
+    width: 100vw;
+    height: 87vh;
+    background-color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.alarm-res {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.alarm-res {
+        width: 70vw;
+    }
+}
+
+@media (min-width: 1024px) {
+	.alarm-res {
+        width: 40vw;
+    }
+}

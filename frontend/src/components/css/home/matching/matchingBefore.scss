@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.matching-container {
+    margin: 0 auto;
+    width: 100vw;
+    background-color: white;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.matching-container {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.matching-container {
+        width: 70vw;
+    }
+}
+
+@media (min-width: 1024px) {
+	.matching-container {
+        width: 40vw;
+    }
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+.badgetitle {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* border-bottom: 1px solid black; */
+}
+
+.badgetitle p {
+    color: #323232;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.badgecon {
+    display: flex;
+    justify-content: center;
+}
+
+.badges {
+    margin: 20px 20px;
+    border: 2px solid #dcdcdc;
+    border-radius: 20px;
+    text-align: center;
+}

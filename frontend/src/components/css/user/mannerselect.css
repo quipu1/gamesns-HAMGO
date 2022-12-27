@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.mselect-box {
+    display: flex;
+    width: 150px;
+    font-size: 15px;
+    color: #60666d;
+    margin: 0px 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+
+  }
+  
+  
+  .mselect-box:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 1px  #FFAF0A;
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    border-radius: 4px;
+  }
+
+.manner-select-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mbtn {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    margin: 0px 10px;
+    width: 50px;
+    background-color: #FFAF0A;
+    color: white;
+    border-radius: 4px;
+}

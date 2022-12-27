@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.result-container {
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.result-line {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.result-container{
+        width: 100vw;
+    }
+    .matching-start-btn, .matching-accept-btn {
+        font-size: small;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.result-container{
+        width: 70vw;
+    }
+    .matching-start-btn, .matching-accept-btn {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 1024px) {
+	.result-container{
+        width: 40vw;
+    }
+    .matching-start-btn, .matching-accept-btn {
+        font-size: large;
+    }
+}

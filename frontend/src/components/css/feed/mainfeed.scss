@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import '../../css/common';
+@import '../mixin';
+
+.mainfeed {
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+
+@include mobile {
+  .mainfeed {
+    width: 100%;
+  }
+}
+
+@include tablet {
+  .mainfeed {
+    width: 70vw;
+  }
+}
+
+@include desktop {
+  .mainfeed {
+    width: 40vw;
+  }
+}

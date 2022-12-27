@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+.badgecon {
+	margin: 0 auto;
+}
+
+.badges img {
+    width: 30vw;
+    margin-top: 10px;
+}
+
+@media (max-width: 319px) {
+    .badges img {
+      width: 25vw;
+  }
+  }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .badges img {
+    width: 25vw;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .badges img {
+    width: 20vw;
+}
+}
+
+@media (min-width: 1024px) {
+  .badges img {
+    width: 10vw;
+}
+}

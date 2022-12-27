@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.mbadgecon {
+    display: flex;
+    justify-content: left;
+}
+
+.mbadges {
+    margin: 0px 5px;
+    /* border: 2px solid #dcdcdc; */
+    border-radius: 20px;
+    text-align: center;
+    font-size: 5px;
+}

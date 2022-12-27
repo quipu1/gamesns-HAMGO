@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+.logo img {
+	width: 80px;
+	left: 3px;
+}
+
+.header{
+	width: 100vw;
+}
+
+.mypage-btn div, .alarm-btn div{
+	font-size: 20px;
+}
+
+.mypage-btn {
+	right: 10px;
+}
+
+.alarm-btn {
+	right: 60px;
+}
+.main-container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.nav {
+	margin: 0 auto;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.header{
+		width: 100vw;
+	}
+
+	.logo img {
+    width: 90px;
+  }
+
+	.mypage-btn div, .alarm-btn div{
+		font-size: 20px;
+	}
+
+	.mypage-btn {
+		right: 3px;
+	}
+	
+	.alarm-btn {
+		right: 42px;
+	}	
+	.main-container {
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+	.nav {
+		margin: 0 auto;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.header{
+		width: 70vw;
+	}
+
+	.logo img {
+    width: 100px;
+		left: 0px;
+  }
+
+	.mypage-btn div, .alarm-btn div{
+		font-size: 22px;
+	}
+
+	.mypage-btn {
+		right: 0px;
+	}
+	
+	.alarm-btn {
+		right: 52px;
+	}	
+	.main-container {
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+	.nav {
+		margin: 0 auto;
+	}
+
+}
+
+@media (min-width: 1024px) {
+	.header{
+		width: 40vw;
+	}
+
+	.logo img {
+    width: 110px;
+		left: 0px;
+  }
+
+	.mypage-btn div, .alarm-btn div{
+		font-size: 22px;
+	}
+
+	.mypage-btn {
+		right: 0px;
+	}
+	
+	.alarm-btn {
+		right: 50px;
+	}	
+	.main-container {
+		width: 60%;
+		margin: 0 auto;
+	}
+	
+	.nav {
+		margin: 0 auto;
+		width: 40vw;
+	}
+
+}

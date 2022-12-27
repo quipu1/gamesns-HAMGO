@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+.join-body-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    background-color: #FFB937;
+}
+
+.join-btn {
+    background: #1565c0;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: f600;
+    position: relative;
+    top: 60px;
+    left: 0px;
+    width: 100%;
+    cursor: pointer;
+    transform: rotate(0.1deg);
+    /* &.disabled {
+          background: $grey;
+          cursor: default; */
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  
+  .disabled {
+    background: grey;
+    cursor: default;
+  }
+  
+  #nickname {
+    /* padding: 0px;
+    text-align: center;
+    font-size: 18px; */
+    width: 75%;
+    background: #FDFCFB;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+    border-radius: 5px 0 0 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+  
+  #nickname-submit {
+    width: 25%;
+    height: 46px;
+    background: #FFB937;
+    font-family: inherit;
+    color: inherit;
+    letter-spacing: 1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: smaller;
+  }
+
+  .login-box {
+      padding: 0px;
+  }
+
+  .join-container {
+    margin: 0 auto;
+    height: 500px;
+    /* max-width: 80%; */
+    /* height: 60%; */
+    max-width: 90%;
+    position: relative;
+    float: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+  }
+
+  .nickname-input {
+    height: 44px;
+    border: none;
+    margin-bottom: 10px;
+  }
+
+  .error-text{
+    padding-top: 5px;
+    color: #ef5350
+  }
+
+  .logo-box {
+    position:relative;
+    bottom: 60px;
+  }

@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+.modal-container {
+  font-family: 'Nanum Gothic', sans-serif;
+  position: relative;
+  top: 50%;
+  /* left: 100%; */
+}
+
+.modal,
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+.overlay {
+  opacity: 0.5;
+  background-color: black;
+}
+.modal-card {
+  width: 100%;
+  position: absolute;
+  top: 45px;
+  bottom: 45px;
+  /* left: 10%; */
+  /* max-width: 100%; */
+  margin: 0 auto;
+  background-color: white;
+  /* max-height: 99%; */
+  z-index: 10;
+  opacity: 1;
+  /* border-radius: 15px; */
+}
+
+.user-writing-time {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 45px;
+}
+
+/* 아래 부터 feed-item scss */
+
+.feed-item {
+  padding: 0;
+  background-color: white;
+}
+
+.feed-item .top {
+  display: flex;
+  padding: 0px 0px 0px 15px;
+  border-bottom: 1px solid #dcdcdc;
+  align-items: center;
+}
+.feed-item .profile-image {
+  float: left;
+  height: 35px;
+  width: 35px;
+  object-fit: cover;
+}
+
+.profile-image img {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+}
+
+.feed-item .content {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 15px;
+}
+.feed-item .user-info {
+  z-index: auto;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 0.4rem !important;
+  /* margin-left: 5px; */
+  display: flex;
+  flex-direction: row;
+}
+.user-name {
+  float: left;
+  display: flex;
+}
+button {
+  font-weight: f600;
+  align-items: center;
+}
+
+.my-image {
+  display: flex;
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* 하단 부터 comment-list */
+
+.feed-item li {
+  display: flex;
+  text-align: -webkit-match-parent;
+  padding: 10px 15px;
+  align-items: center;
+}
+
+.img-comment-list img {
+  margin: 0px;
+}
+
+.modal-container .img-comment-list {
+  list-style: none;
+  padding: 0;
+}
+.modal-container .img-comment-list li {
+  margin: 0;
+}
+
+.modal-container .img-comment-list li > div {
+  display: table-cell;
+}
+
+.modal-container .img-comment-list p {
+  margin: 0;
+}
+
+.modal-container .img-comment-list span {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.feed-item hr {
+  margin: 5px 0px;
+}
+
+/* 이미지 슬라이더 */
+
+.mcardbox-item {
+  position: relative;
+  display: flex;
+}
+
+.mffimg {
+  margin: 0;
+}
+
+.mffimg img {
+  z-index: initial;
+  padding: 0px;
+  width: 100vw;
+  height: 100vw;
+  /* object-fit: contain; */
+  object-fit: contain;
+}
+
+
+.mcardbox-item div {
+  padding: 10px 10px;
+  font-size: 14px;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.mslider {
+  position: absolute;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  /* height: 100%; */
+  justify-content: space-between;
+}
+
+.mimage-slider {
+  position: relative;
+  display: flex;
+}
+
+.mimage-slider button {
+  top: 0;
+  width: 2rem;
+  height: 100vw;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  border: none;
+  color: white;
+  font-size: 1rem;
+  opacity: 1;
+  padding: 0;
+}
+
+.mcontent {
+  display: block;
+  padding: 10px;
+}
+
+.img-comment-list .list {
+  justify-content: end;
+}
+
+.edit-form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalfeeld-search__input {
+  width: 90%;
+  padding: 12px 8px;
+  outline: 0;
+  border: 1px solid transparent;
+  border-radius: 0;
+  background-position: 98% center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.modalfeeld-search__input::placeholder {
+  color: rgba(87, 87, 86, 0.8);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.modalfeeld-search__input:hover,
+.modalfeeld-search__input:focus {
+  padding: 12px 8px;
+  outline: 0;
+  border: 1px solid transparent;
+  border-radius: 0;
+  background-position: 98% center;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.edit-btn,
+.delete-btn {
+  height: 100%;
+  box-shadow: none;
+}
+
+.modalfeed-putting-up {
+  color: #0095f6;
+  /* margin: 0 3px; */
+}
+
+.putting-up {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.comment-text {
+  max-width: 75%;
+}
+
+.comment-text p {
+  min-width: 40vw;
+  max-width: 70vw;
+  word-break: normal;
+}
+
+.feed-item .close-icon {
+  padding: 15px;
+  font-size: 15px;
+}
+
+.close-icon {
+  display: flex;
+  align-items: center;
+}
+
+.modal-card :hover {
+  background-color: transparent;
+}
+
+.modalcomment-delete-btn {
+  position: absolute;
+  right: 2%;
+}

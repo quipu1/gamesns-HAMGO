@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+.alarm-container{
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 100%;
+}
+
+.form {
+    display: block;
+}
+
+
+
+.title {
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-bottom: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 10px 8px 10px;
+    border-bottom: 1px solid #dcdcdc ;
+    min-height: 60px;
+    position: relative;
+}
+
+.agree-btn, .deny-btn {
+    padding: 6px 10px;
+    background-color:#03a9f4;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    /* width: 160px; */
+    text-align: center;
+    position: relative;
+    right: 5%;
+    font-size: 16px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight:bold;
+    border: 0.5px solid gray;
+    position: absolute;
+}
+
+.user-fol-request{
+    display: flex;
+    align-items: center;
+}
+
+.agree-btn{
+    right: 73px;
+    /* top: 16.5%; */
+}
+
+.deny-btn{
+    background-color:transparent;
+    color: black;
+    right: 10px;
+}
+
+
+
